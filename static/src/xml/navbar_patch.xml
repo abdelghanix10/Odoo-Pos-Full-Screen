@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="pos_full_screen.Navbar" t-inherit="point_of_sale.Navbar" t-inherit-mode="extension">
+        <xpath expr="//Input[@placeholder.translate='Search products...']" position="after">
+            <button class="btn btn-light btn-lg lh-lg" t-on-click="toggleFullScreen" title="Toggle Full Screen" style="margin-right: 4px;">
+                <i class="fa fa-fw fa-lg fa-arrows-alt"/>
+            </button>
+        </xpath>
+    </t>
+</templates>
