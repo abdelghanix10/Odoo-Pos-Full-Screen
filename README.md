@@ -1,0 +1,1 @@
+"# Odoo-Pos-Full-Screen" 
